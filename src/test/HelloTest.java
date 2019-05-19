@@ -5,6 +5,6 @@ public class HelloTest {
 
     @Test
     public void testSay() {
-	assertEquals("hi", Hello.say());
+	Assertions.assertEquals("hi", Hello.say());
     }
 }

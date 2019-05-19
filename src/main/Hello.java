@@ -1,3 +1,3 @@
 public class Hello {
-    public static void say() { return "hi"; }
+    public static String say() { return "hi"; }
 }
