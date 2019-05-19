@@ -1,7 +1,6 @@
 .PHONY: clean
 clean:
-	-rm *.class
-	-rm *~
+	git clean -xdf
 
 .PHONY: test
 test:
